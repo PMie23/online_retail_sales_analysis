@@ -99,28 +99,28 @@ The raw dataset was imported into MySQL and transformed into a clean analytical 
 
 ## Project Structure
 
-
+```text
 online-retail-sales-analysis
-
 │
 ├── data
-│ ├── monthly\_revenue.csv
-│ ├── top\_countries.csv
-│ ├── top\_products.csv
+│   ├── monthly_revenue.csv
+│   ├── top_countries.csv
+│   └── top_products.csv
 │
 ├── sql
-│ ├── 01\_create\_raw\_table.sql
-│ ├── 02\_create\_clean\_table.sql
-│ ├── 03\_create\_views.sql
-│ └── 04\_analysis\_queries.sql
+│   ├── 01_create_raw_table.sql
+│   ├── 02_create_clean_table.sql
+│   ├── 03_create_views.sql
+│   └── 04_analysis_queries.sql
 │
 ├── dashboard
-│ └── online\_retail\_dashboard.pbix
+│   └── online_retail_dashboard.pbix
 │
 ├── images
-│ └── dashboard\_overview.png
+│   └── dashboard_overview.png
 │
 └── README.md
+```
 
 ## Author
 
