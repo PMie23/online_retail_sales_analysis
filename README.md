@@ -99,10 +99,13 @@ The raw dataset was imported into MySQL and transformed into a clean analytical 
 
 ## Project Structure
 
+## Project Structure
+
 ```text
 online-retail-sales-analysis
 │
 ├── data
+│   ├── kpi_summary.csv
 │   ├── monthly_revenue.csv
 │   ├── top_countries.csv
 │   └── top_products.csv
